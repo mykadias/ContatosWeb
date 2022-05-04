@@ -27,8 +27,8 @@
 					<hr />
 					<form>
 						<div class="mb-3">
-							<label>Email de acesso</label> <input type="text"
-								class="form-control" placeholder="Digite seu email aqui" />
+							<label>login de acesso</label> <input type="text"
+								class="form-control" placeholder="Digite seu login aqui" />
 						</div>
 						<div class="mb-3">
 							<label>Senha de acesso</label> <input type="password"

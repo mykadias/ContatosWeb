@@ -21,7 +21,7 @@
 
 					<div class="text-center">
 						<h3>Esqueci minha senha</h3>
-						<p>Informe seu email para recuperação da senha<p>
+						<p>Informe seu login para recuperação da senha<p>
 					</div>
 
 					<hr />
@@ -29,8 +29,8 @@
 					<form>
 						
 						<div class="mb-3">
-							<label>Email de Acesso</label> <input type="text"
-								class="form-control" placeholder="Digite seu email" />
+							<label>login de Acesso</label> <input type="text"
+								class="form-control" placeholder="Digite seu login" />
 						</div>
 
 						<div class="mb-3">

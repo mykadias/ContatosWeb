@@ -30,19 +30,23 @@
 
 					<hr />
 
-					<form>
+					<form method="post" action="registerUser">
+					
 						<div class="mb-3">
 							<label>Nome de Usuário</label>
-							<input type="text" class="form-control" placeholder="Digite seu nome" />
+							<form:input path="model.nome" type="text" class="form-control" placeholder="Digite seu nome" />
 						</div>
-
 						<div class="mb-3">
-							<label>Email de Acesso</label>
-							<input type="text" class="form-control" placeholder="Digite seu email" />
+							<label>login de Acesso</label>
+							<form:input path="model.login" type="text" class="form-control" placeholder="Digite seu login" />
+						</div>
+						<div class="mb-3">
+							<label>Telefone</label>
+							<form:input path="model.telefone" type="text" class="form-control" placeholder="Digite seu telefone" />
 						</div>
 						<div class="mb-3">
 							<label>Senha de Acesso</label>
-							<input type="password" class="form-control" placeholder="Digite sua senha" />
+							<form:input path="model.senha" type="password" class="form-control" placeholder="Digite sua senha" />
 						</div>
 
 						<div class="mb-3">
@@ -60,6 +64,12 @@
 								<a href="/contatosweb/" class="btn btn-light"> 
 								Voltar para a página inicial. </a>
 							</div>
+						</div>
+						
+						<div class="mb-3 text-center">
+						<strong class= "text-primary">
+						 ${mensagem}
+						</strong>
 						</div>
 					</form>
 
